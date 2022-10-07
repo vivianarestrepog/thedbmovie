@@ -6,6 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 object RetrofitProvider {
 
     private const val BASE_URL = "https://api.themoviedb.org/3/"
+    const val IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500/"
     val movieApi: MovieApi
 
     init {
